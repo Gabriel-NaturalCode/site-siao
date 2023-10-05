@@ -1,13 +1,41 @@
 nav {color: rgb(85, 112, 69);
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     margin: auto;
     width: 1200px;
 }
 
+div.logo {
+    padding: 20px;
+}
+
+.menu {
+    padding: 0;
+    background-color: rgb(212, 255, 143);
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(7, 65, 7);
+}
+
+.menu a:hover {
+    background-color: rgb(156, 192, 57);
+    color: white;
+    border-radius: 5px;
+} 
 body {
-    background-image: linear-gradient(to bottom,  rgb(41, 53, 34), rgb(77, 112, 56)70%);
+    background-image: linear-gradient(to bottom,  #47733F, rgb(77, 112, 56)70%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
     
@@ -16,19 +44,18 @@ body {
 h1 {
     text-align: center;
     padding: 30px;
-    text-shadow: 2px 2px 5px rgb(27, 90, 27);
+    text-shadow: 1px 1px 10px rgba(125, 226, 125, 0.911);
 }
 
 h2 {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    text-shadow: 2px 2px 5px rgb(27, 90, 27);
 } 
 main {
     background-color: white;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 1200px;
     margin: auto;
     
